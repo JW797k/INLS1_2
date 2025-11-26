@@ -41,7 +41,7 @@ header {
     align-items: center;
 }
 
-header a {
+header a, section.faq a {
     background-color: brown;
     border: 1px solid brown;
     color: white;
@@ -50,7 +50,7 @@ header a {
     border-radius: 20px;
 }
 
-header a:hover {
+header a:hover, section.faq a:hover {
     background-color: white;
     border: 1px solid brown;
     color: brown;
