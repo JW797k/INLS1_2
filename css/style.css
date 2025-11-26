@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+h2.h2 {
+    padding: 10px;
+}
+
+.flex_column_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*header*/
+header {
+    color: white;
+    text-shadow: 5px;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-image: url('https://cdn.pixabay.com/photo/2022/09/30/13/55/torii-7489492_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: 32%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    text-shadow: 3px 3px 3px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    background-color: brown;
+    border: 1px solid brown;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+header a:hover {
+    background-color: white;
+    border: 1px solid brown;
+    color: brown;
+    transition: 0.3s;
+}
+
+/* sekcja miejsc do odwiedzenia */
+
+section.places_to_see {
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+section.places_to_see p {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+div.single_place {
+    text-align: center;
+    padding: 10px;
+    line-height: 1.2;
+}
+
+div.single_place img {
+    display: inline-block;
+    width: 100%;
+}
+
+div.single_place a {
+    background-color: brown;
+    border: 1px solid brown;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+div.single_place a:hover {
+    background-color: white;
+    border: 1px solid brown;
+    color: brown;
+    transition: 0.3s;
+}
+
+/*sekcja newsletter*/
+section.newsletter {
+    background-color: rgb(204, 118, 118);
+    padding: 20px;
+}
+
+section.newsletter h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+section.newsletter p {
+    padding: 10px 0px;
+}
+
+section.newsletter form .form_input_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.newsletter form .form_input_box input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+section.newsletter form button {
+    background-color: brown;
+    border: 1px solid brown;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* sekcja kontaktu */
+section.contact {
+    padding: 10px;
+}
+
+.single_contact :last-child {
+    margin-bottom: 0px;
+}
+
+section.contact i {
+    font-size: 50px;
+    color: rgb(255, 89, 89);
+    border: 6px solid rgb(255, 89, 89);
+    padding: 8px;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*sekcja komentarzy*/
+section.comments {
+    background-image: url('https://cdn.pixabay.com/photo/2022/09/30/13/55/torii-7489492_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: 32%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    color:white;
+    text-shadow: 3px 3px 3px black;
+}
+
+section.comments .single_comment {
+    background-color: rgba(255, 255, 255, 0.808);
+    padding: 5px;
+    margin-bottom: 20px;
+    color:black;
+    text-shadow: none;
+}
+
+section.comments .single_comment p:first-child {
+    line-height: 1.2;
+    text-align: center;
+}
+
+section.comments .single_comment p:last-child {
+    font-weight: bold;
+    align-self: flex-end;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* sekcja mapy */
+section.map iframe {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    background-color: rgb(68, 39, 39);
+    color: rgb(249, 252, 255);
+}

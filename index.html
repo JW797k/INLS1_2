@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link do umieszczenia elementu favicon -->
+    <link rel="shortcut icon" href="./img/fuji.png" type="image/x-icon">
+    <!-- Tytuł strony tego typu -->
+    <title>Przewodnik po Tokio</title>
+    <script src="https://kit.fontawesome.com/e9f1f06fcc.js" crossorigin="anonymous"></script>
+
+    <!--biblioteka fontów-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--własne style css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="screen and (min-width:768px)" href="./css/medium.css">
+    <link rel="stylesheet" media="screen and (min-width:992px)" href="./css/large.css">
+</head>
+
+<body>
+    <!-- część, którą użytkownik widzi w przeglądarce, czaisz bazę? -->
+    <header>
+        <div>
+            <h1>Przewodnik po Tokio</h1>
+            <h2>Poznaj z nami stolicę Japonii</h2>
+        </div>
+        <a href="#main">czytaj więcej</a>
+    </header>
+
+    <main>
+        <!--sekcja miejsc-->
+        <section id="main" class="places_to_see flex_column_container">
+            <h2 class="h2">Miejsca warte odwiedzenia</h2>
+            <div class="all_places_to_see">
+                <div class="single_place">
+                    <h3>Pałac Cesarski</h3>
+                    <img src="./img/palace.jpg" alt="Pałac Cesarski">
+                    <p>bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
+                    <a href="">Czytaj więcej</a>
+                </div>
+
+                <div class="single_place">
+                    <h3>Pagoda Sensō-ji</h3>
+                    <img src="./img/pagoda2.jpg" alt="Pagoda">
+                    <p>bla bla bla bla bla bla bla</p>
+                    <a href="">Czytaj więcej</a>
+                </div>
+
+                <div class="single_place">
+                    <h3>Dzielnica Asakusa</h3>
+                    <img src="./img/asakusa.jpg" alt="Asakusa">
+                    <p>bla bla bla bla bla bla bla</p>
+                    <a href="">Czytaj więcej</a>
+                </div>
+
+                <div class="single_place">
+                    <h3>Wieża Tokio</h3>
+                    <img src="./img/tokyotower.jpg" alt="Tokyo Tower">
+                    <p>bla bla bla bla bla bla bla</p>
+                    <a href="">Czytaj więcej</a>
+                </div>
+            </div>
+        </section>
+
+        <!--sekcja newsletter-->
+        <section class="newsletter">
+            <div class="newsletter_box">
+                <h2>newsletter</h2>
+                <p>Zapisz się do naszego newsletter i bądź na bieżąco z naszymi ofertami i promocjami</p>
+                <form action="" class="flex_column_container">
+                    <div class=".form_input_box">
+                        <input class=".form_input_box" type="text" placeholder="imię">
+                        <input class=".form_input_box" type="email" placeholder="email">
+                    </div>
+                    <div>
+                        <label for="">Zapoznałem/am się z regulaminem i akceptuję go.<input type="checkbox"></label>
+                    </div>
+                    <button class="button">Zapisz się!</button>
+                </form>
+            </div>
+        </section>
+
+        <!--sekcja kontaktu-->
+        <section class="contact flex_column_container h2.h2">
+            <h2>Skontaktuj się z nami</h2>
+            <div class="all_contacts">
+                <div class="flex_column_container single_contact">
+                    <i class="fa-solid fa-location-dot" style="color: #ff5757;"></i>
+                    <p>ul. Polna 5, 12-345 Gańsk</p>
+                </div>
+                <div class="flex_column_container single_contact">
+                    <i class="fa-solid fa-envelope" style="color: #ff5757;"></i>
+                    <p>przewodnik@mail.com</p>
+                </div>
+                <div class="flex_column_container single_contact">
+                    <i class="fa-solid fa-phone" style="color: #ff5252;"></i>
+                    <p>+48 123-456-789</p>
+                </div>
+            </div>
+        </section>
+
+        <!--sekcja komentarzy-->
+        <section class="flex_column_container comments">
+            <h2 class="h2">Zobacz co o nas piszą</h2>
+            <div class="all_comments">
+                <div class="flex_column_container">
+                    <div class="single_comment">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Tytus Flawiusz</p>
+                    </div>
+
+                    <div class="single_comment">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Juliusz Cezar</p>
+                    </div>
+
+                    <div class="single_comment">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Marek Aureliusz</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--sekcja mapy-->
+        <section class="map">
+            <h2 class="h2">Zobacz mapę Tokio</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1663360.4173128926!2d137.27074299632892!3d35.485708666482104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokio%2C%20Japonia!5e0!3m2!1spl!2spl!4v1761734906543!5m2!1spl!2spl"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
+    <footer class="flex_column_container">
+        <div class="social_media">
+            <p>Obserwuj nas na:</p>
+            <a href="https://facebook.com" target="_blank"><img src="./img/facebook.png" alt="Facebook"></a>
+            <a href="https://youtube.com" target="_blank"><img src="./img/youtube.png" alt="Youtube"></a>
+            <a href="https://instagram.com" target="_blank"><img src="./img/instagram.png" alt="Instagram"></a>
+            <a href="https://x.com" target="_blank"><img src="./img/twitter.png" alt="Twitter"></a>
+            <a href="https://pinterest.com" target="_blank"><img src="./img/pinterest.png" alt="Pinterest"></a>
+            <a href="https://tiktok.com" target="_blank"><img src="./img/tiktok.png" alt="Tiktok"></a>
+        </div>
+        <div class="autor">
+            <p>Projekt WSB Merito Gdańsk 2025</p>
+            <p>Autor: Jarosław W. (numer indeks)</p>
+        </div>
+    </footer>
+</body>
+
+</html>
