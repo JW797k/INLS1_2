@@ -35,8 +35,15 @@ div.all_contacts, div.all_comments {
     max-width: 728px;
 }
 
+div.accordion {
+    width: 100%;
+    max-width: 728px;
+}
+
 div.single_contact, div.single_comment {
     width: 31%;
     margin-bottom: 0px;
 }
+
+
 
