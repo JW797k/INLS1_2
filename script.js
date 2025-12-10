@@ -1,7 +1,7 @@
 const buttons = document.querySelectorAll(".accordion_button");
 const arrows = document.querySelectorAll(".fa-chevron-down");
 
-function opneItem (){
+function openItem (){
     if (this.nextElementSibling.classList.contains('active_accordion_box')) {
         this.nextElementSibling.classList.remove('active_accordion_box');
         this.lastElementChild.classList.remove('active_accordion_btn');
@@ -24,5 +24,5 @@ function opneItem (){
 
 
 buttons.forEach(btn => {
-    btn.addEventListener('click', opneItem)
+    btn.addEventListener('click', openItem)
 })
